@@ -1,0 +1,16 @@
+---
+dataset:
+  directory: "DAVIS"
+  image_directory: "JPEGImages/480p"
+  label_directory: "Annotations/480p"
+  train: "ImageSets/2017/train.txt"
+  val: "ImageSets/2017/val.txt"
+
+train:
+  tensorboard_directory: "tensorboard"
+
+  lr: 0.001
+
+  epoch: 100
+  early_stop: 3
+  batch_size: 32
